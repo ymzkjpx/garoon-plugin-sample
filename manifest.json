@@ -1,0 +1,34 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "target_applications": [
+    "ALL"
+  ],
+  "impacted_applications": [
+    "PORTAL",
+  ],
+  "name": {
+    "ja": "Garoonプラグインサンプル"
+  },
+  "description": {
+    "ja": "Garoonプラグインサンプル",
+  },
+  "icon": "logo.png",
+  "homepage_url": {
+    "ja": "https://eample.co.jp"
+  },
+  "desktop": {
+    "js": [
+      "dist/js/app.d709e1fa.js"
+    ],
+    "css": [
+      "dist/css/app.3b7c3d77.css"
+    ]
+  },
+  "config": {
+    "html": "config.html",
+    "css": [
+      "dist/css/app.3b7c3d77.css"
+    ]
+  }
+}
